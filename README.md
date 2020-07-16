@@ -65,8 +65,6 @@ streamlit run app.py
 │   └── yolov3.py
 ├── LICENSE
 ├── NOTICES
-├── Procfile
-├── setup.sh
 ├── README.md
 ├── app.py
 └── requirements.txt
