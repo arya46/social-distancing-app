@@ -7,6 +7,7 @@
 - Running the App locally
 - Project Directory Tree
 - Tools / Technologies Used
+- To Do
 - References / Useful resources
 - Contributions / Bug
 - Questions? Comments?
@@ -84,6 +85,10 @@ streamlit run app.py
 ## Tools / Technologies Used
 - Streamlit
 - YOLO v3
+- OpenCV
+
+## To Do
+- [ ] Deployement on Heroku
 
 ## References / Useful resources
 - https://github.com/streamlit/demo-self-driving/
