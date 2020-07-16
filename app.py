@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import os, urllib, cv2
+from PIL import Image
 
 from utils.yolov3 import *
 from utils.controllers import *
@@ -21,6 +22,8 @@ def main():
         ["Show instructions", "Image", "Video", "Real-time"])
 
     if app_mode == "Show instructions":
+        st.markdown('<h1 style="text-align: center;">Social Distancing Monitoring Tool</h1>', unsafe_allow_html=True)
+        st.image(Image.open('static\social_dist.jpg'),use_column_width=True)
         st.markdown(get_file_content_as_string("static/instructions.md"), unsafe_allow_html=True)
         st.sidebar.success('To continue select an action.')
 

@@ -1,6 +1,3 @@
-# Social Distancing Monitoring Tool
-<img src="https://github.com/arya46/social-distancing/blob/master/static/social_dist.jpg" height="500">
-
 Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
 It is the most dealiest virus humanity has ever seen in recent times. It spreads from person to person through contact or if you're within close proximity of an infected person. 
 

@@ -1,11 +1,10 @@
 # Social Distancing Monitoring Tool
-
-<img src="https://github.com/arya46/social-distancing/blob/master/static/social_dist.jpg" height="500">
+<img src="static/social_dist.jpg" height="450" width="700">
 
 ## Table of Contents
 - Introduction
-- View The App
-- Running the app locally
+- How the App Works?
+- Running the App locally
 - Project Directory Tree
 - Tools / Technologies Used
 - References / Useful resources
@@ -26,10 +25,23 @@ In a fight against this virus, the only way to prevent the spread of COVID-19 is
 
 This project is an attempt to monitor if people are following social distancing norms or not.
 
-## View The App
-Live version of the app is available [here](https://keep-safe-dist.herokuapp.com/).
+This app can be used in 3 different modes:
+- **Image**: Monitors social distancing norms on an still image.
+- **Video**: Monitors social distancing norms on a video.
+- **Real-time**: Monitors social distancing norms on a real-time video.
 
-## Run the app locally
+## How the App Works?
+
+Given an input frame:
+
+<img src="static/sd_input.jpg">
+
+It produces the following output frame:
+
+<img src="static/sd_output.jpg">
+
+
+## Run the App locally
 First, clone this project to your local machine:
 ```
 git clone https://github.com/arya46/social-distancing.git
