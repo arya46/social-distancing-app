@@ -27,7 +27,7 @@ In a fight against this virus, the only way to prevent the spread of COVID-19 is
 This project is an attempt to monitor if people are following social distancing norms or not.
 
 ## View The App
-Live version of the app is available [here](social-distancing.herokuapp.com).
+Live version of the app is available [here](https://keep-safe-dist.herokuapp.com/).
 
 ## Run the app locally
 First, clone this project to your local machine:
