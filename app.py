@@ -21,7 +21,7 @@ def main():
         ["Show instructions", "Image", "Video", "Real-time"])
 
     if app_mode == "Show instructions":
-        st.markdown(get_file_content_as_string("static/instructions.md"))
+        st.markdown(get_file_content_as_string("static/instructions.md"), unsafe_allow_html=True)
         st.sidebar.success('To continue select an action.')
 
     elif app_mode == "Image":
