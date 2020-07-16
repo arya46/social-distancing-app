@@ -1,6 +1,6 @@
 # Social Distancing Monitoring Tool
 
-<img src="https://github.com/arya46/social-distancing/blob/master/static/social_dist.jpg" height=600>
+<img src="https://github.com/arya46/social-distancing/blob/master/static/social_dist.jpg" height="500">
 
 ## Table of Contents
 - Introduction
