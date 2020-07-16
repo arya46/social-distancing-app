@@ -1,6 +1,6 @@
 # Social Distancing Monitoring Tool
 
-![Header Image](https://github.com/arya46/social-distancing/blob/master/static/social_dist.jpg)
+<img src="https://github.com/arya46/social-distancing/blob/master/static/social_dist.jpg" height=600>
 
 ## Table of Contents
 - Introduction
@@ -47,7 +47,6 @@ Before we can run the app, download the YOLO [weights](https://pjreddie.com/medi
 Everything is set now. Use the following command to launch the app:
 ```
 streamlit run app.py
-
 ```
 
 ## Project Directory Tree
